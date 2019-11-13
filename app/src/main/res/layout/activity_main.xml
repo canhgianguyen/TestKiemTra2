@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn bài toán:" />
+
+    <CheckBox
+        android:id="@+id/chkGiaiPTBacJai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giải PT bậc hai" />
+
+    <CheckBox
+        android:id="@+id/chkKTSoHoanHao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra số hoàn hảo" />
+
+    <CheckBox
+        android:id="@+id/chkNoiVaDaoNguocXau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nối và đảo ngược xâu" />
+
+    <CheckBox
+        android:id="@+id/chkGuiTNVaHinhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi tin nhắn và hình ảnh" />
+
+    <CheckBox
+        android:id="@+id/chkUngDunXemAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng xem ảnh" />
+
+    <CheckBox
+        android:id="@+id/chkThucHienCuocGoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thực hiện cuộc gọi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/ok" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit" />
+    </LinearLayout>
+
+</LinearLayout>
