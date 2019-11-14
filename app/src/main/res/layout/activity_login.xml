@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".loginActivity">
+    tools:context=".loginActivity"
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="6">
 
         <TextView
             android:id="@+id/textView2"
@@ -24,7 +26,7 @@
             android:id="@+id/txtUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:ems="10"
             android:inputType="textPersonName" />
     </LinearLayout>
@@ -32,7 +34,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="6">
 
         <TextView
             android:id="@+id/textView3"
@@ -45,7 +48,7 @@
             android:id="@+id/txtPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:ems="10"
             android:inputType="textPassword" />
     </LinearLayout>
@@ -53,20 +56,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="6">
 
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Login" />
+            android:text="Login"
+            android:background="@drawable/button"
+            android:layout_marginRight="10dp"/>
 
         <Button
             android:id="@+id/btnExit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Exit" />
+            android:layout_weight="4"
+            android:text="Exit"
+            android:background="@drawable/button"/>
     </LinearLayout>
 </LinearLayout>
